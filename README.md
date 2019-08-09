@@ -6,6 +6,12 @@ ASTER is an accurate scene text recognizer with flexible rectification mechanism
 
 ![ASTER Overview](overview.png)
 
+## Installation
+
+```
+conda env create -f environment.yml
+```
+
 ## Train
 
 ```
@@ -20,10 +26,10 @@ bash scripts/main_test_all.sh
 
 ## Reproduced results
 
-|               | IIIT5k |  SVT |  IC03 |  IC13 |  SVTP |  CUTE |
-|:-------------:|:------:|:----:|:-----:|:-----:|:-----:|:-----:|
-|  ASTER (L2R)  |  92.67 |   -  | 93.72 | 90.74 | 78.76 | 76.39 |
-| ASTER.Pytorch |  93.2  | 89.2 | 92.2  |   91  |  81.2 |  81.9 |
+|               | IIIT5k |  SVT |  IC03 |  IC13 |  IC15 | SVTP  |  CUTE |
+|:-------------:|:------:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|  ASTER (L2R)  |  92.67 |   -  | 93.72 | 90.74 |    -  | 78.76 | 76.39 |
+| ASTER.Pytorch |  93.2  | 89.2 | 92.2  |   91  |  78.0 |  81.2 |  81.9 |
 
 At present, the bidirectional attention decoder proposed in ASTER is not included in my implementation. 
 
