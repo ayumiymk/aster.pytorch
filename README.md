@@ -24,6 +24,9 @@ bash scripts/stn_att_rec.sh
 bash scripts/main_test_all.sh
 ```
 
+## Pretrained model
+The pretrained model is available on our [release page](https://github.com/ayumiymk/aster.pytorch/releases/download/v1.0/demo.pth.tar). Download `demo.pth.tar` and put it to somewhere. Before running, modify the `--resume` to the location of this file.
+
 ## Reproduced results
 
 |               | IIIT5k |  SVT |  IC03 |  IC13 |  IC15 | SVTP  |  CUTE |
