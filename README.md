@@ -21,8 +21,13 @@ bash scripts/stn_att_rec.sh
 
 ## Test
 
+You can test with .lmdb files by
 ```
 bash scripts/main_test_all.sh
+```
+Or test with single image by
+```
+bash scripts/main_test_image.sh
 ```
 
 ## Pretrained model
