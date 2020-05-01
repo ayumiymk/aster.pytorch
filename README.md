@@ -49,6 +49,8 @@ You can use the codes to bootstrap for your next text recognition research proje
 
 We give an example to construct your own datasets. Details please refer to `tools/create_svtp_lmdb.py`.
 
+We also provide datasets for [training](https://pan.baidu.com/s/1BMYb93u4gW_3GJdjBWSCSw&shfl=sharepset) (password: wi05) and [testing](https://drive.google.com/open?id=1U4mGLlsm9Ade1-gQOyd6He5R0yiaafYJ).
+
 ## Citation
 
 If you find this project helpful for your research, please cite the following papers:
